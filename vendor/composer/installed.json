@@ -1,0 +1,37 @@
+[
+    {
+        "name": "gsro/writer",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gsro/writer.git",
+            "reference": "edd3370b216f2402c9f448cd19f20cdcc85278cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gsro/writer/zipball/edd3370b216f2402c9f448cd19f20cdcc85278cd",
+            "reference": "edd3370b216f2402c9f448cd19f20cdcc85278cd",
+            "shasum": ""
+        },
+        "time": "2017-08-31T13:00:29+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GSRO\\Writer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "gabidj",
+                "email": "git@gabisuciu.ro"
+            }
+        ],
+        "description": "Example project for composer dependencies course"
+    }
+]

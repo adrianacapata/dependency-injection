@@ -1,0 +1,17 @@
+{
+    "name": "workshop-tests/DI",
+    "description": "second composer json file",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+    	"gsro/writer": "v1.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+    		"Workshop\\Composer\\": "src/",
+    		"Workshop\\DI\\": "src/"
+    	}
+	}
+}
